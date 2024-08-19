@@ -1,12 +1,13 @@
 {
   "name": "h8d3jca2b-2",
+  "homepage": "https://h8D3jCa2b.github.io/react-gh-pages",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist",
+    "deploy": "gh-pages -d build",
+    "dev": "vite",
     "build": "GENERATE_SOURCEMAP=false vite build",
     "lint": "eslint .",
     "preview": "vite preview"
